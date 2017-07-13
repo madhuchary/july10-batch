@@ -1,1 +1,12 @@
-
+---
+- hosts : Localhost
+   tasks :
+- name : Launching Instance
+- ec2 :
+   Instance type : t2.micro
+   image :
+   vpc-subnet id :
+   assign.public Ip :
+   region :
+   security group:
+   Monitoring : NO
